@@ -3,15 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qbit_array", "qbit_array\qbit_array.csproj", "{10264952-4368-427F-9C19-4AC5AAE61EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "qbit_array", "qbit_array\qbit_array.csproj", "{10264952-4368-427F-9C19-4AC5AAE61EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Элемент массива1", "Элемент массива1\Элемент массива1.csproj", "{99DBB285-7DFB-42F5-812F-F0E849FD49AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Элемент массива1", "Элемент массива1\Элемент массива1.csproj", "{99DBB285-7DFB-42F5-812F-F0E849FD49AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Элементы с max и min суммой цифр", "Элементы с max и min суммой цифр\Элементы с max и min суммой цифр.csproj", "{95EB4EE2-2D61-4775-8126-F24AA244E6A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Элементы с max и min суммой цифр", "Элементы с max и min суммой цифр\Элементы с max и min суммой цифр.csproj", "{95EB4EE2-2D61-4775-8126-F24AA244E6A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Количество различных-2", "Количество различных-2\Количество различных-2.csproj", "{8FA935B6-F996-48FB-BBE5-CB6332CB3387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Количество различных-2", "Количество различных-2\Количество различных-2.csproj", "{8FA935B6-F996-48FB-BBE5-CB6332CB3387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Среднее арифметическое-2", "Среднее арифметическое-2\Среднее арифметическое-2.csproj", "{2C71EDE3-7998-4BBB-AE1D-06708DBCFD7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Среднее арифметическое-2", "Среднее арифметическое-2\Среднее арифметическое-2.csproj", "{2C71EDE3-7998-4BBB-AE1D-06708DBCFD7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Среднее арифметическое", "Среднее арифметическое\Среднее арифметическое.csproj", "{F565F139-5FFF-49C2-AEA1-B11F309C8BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Генерация массива", "Генерация массива\Генерация массива.csproj", "{99895B6F-9CFB-4019-8113-E0A5D8B5DDD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Максимум, минимум, сумма", "Максимум, минимум, сумма\Максимум, минимум, сумма.csproj", "{AEE33F85-6718-4D8B-998E-958B483D355E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Больше соседних", "Больше соседних\Больше соседних.csproj", "{68CB0092-70D4-44F8-86DB-CD42519CFDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Элементы с одинаковыми знаками", "Элементы с одинаковыми знаками\Элементы с одинаковыми знаками.csproj", "{94288189-331B-45D5-96F4-894DE19203C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Больше предыдущего", "Больше предыдущего\Больше предыдущего.csproj", "{D3F6C40B-CFD0-4779-9136-841C901C4006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Положительные элементы", "Положительные элементы\Положительные элементы.csproj", "{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Чётные элементы", "Чётные элементы\Чётные элементы.csproj", "{6046E32D-7768-4CC7-B0F8-785F9FEAB741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A[0], A[2], A[4]", "A[0], A[2], A[4]\A[0], A[2], A[4].csproj", "{4DEC0589-C880-4113-8D4F-EBC1E001C61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массив в число", "Массив в число\Массив в число.csproj", "{7A07EDAB-A175-4429-BF58-28E071D2C05E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +59,46 @@ Global
 		{2C71EDE3-7998-4BBB-AE1D-06708DBCFD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C71EDE3-7998-4BBB-AE1D-06708DBCFD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C71EDE3-7998-4BBB-AE1D-06708DBCFD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F565F139-5FFF-49C2-AEA1-B11F309C8BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F565F139-5FFF-49C2-AEA1-B11F309C8BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F565F139-5FFF-49C2-AEA1-B11F309C8BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F565F139-5FFF-49C2-AEA1-B11F309C8BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99895B6F-9CFB-4019-8113-E0A5D8B5DDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99895B6F-9CFB-4019-8113-E0A5D8B5DDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99895B6F-9CFB-4019-8113-E0A5D8B5DDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99895B6F-9CFB-4019-8113-E0A5D8B5DDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE33F85-6718-4D8B-998E-958B483D355E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE33F85-6718-4D8B-998E-958B483D355E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE33F85-6718-4D8B-998E-958B483D355E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE33F85-6718-4D8B-998E-958B483D355E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CB0092-70D4-44F8-86DB-CD42519CFDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CB0092-70D4-44F8-86DB-CD42519CFDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CB0092-70D4-44F8-86DB-CD42519CFDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CB0092-70D4-44F8-86DB-CD42519CFDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94288189-331B-45D5-96F4-894DE19203C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94288189-331B-45D5-96F4-894DE19203C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94288189-331B-45D5-96F4-894DE19203C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94288189-331B-45D5-96F4-894DE19203C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F6C40B-CFD0-4779-9136-841C901C4006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F6C40B-CFD0-4779-9136-841C901C4006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F6C40B-CFD0-4779-9136-841C901C4006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F6C40B-CFD0-4779-9136-841C901C4006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6046E32D-7768-4CC7-B0F8-785F9FEAB741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6046E32D-7768-4CC7-B0F8-785F9FEAB741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6046E32D-7768-4CC7-B0F8-785F9FEAB741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6046E32D-7768-4CC7-B0F8-785F9FEAB741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEC0589-C880-4113-8D4F-EBC1E001C61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEC0589-C880-4113-8D4F-EBC1E001C61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEC0589-C880-4113-8D4F-EBC1E001C61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEC0589-C880-4113-8D4F-EBC1E001C61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
