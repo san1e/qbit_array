@@ -21,17 +21,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Максимум, мини�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Больше соседних", "Больше соседних\Больше соседних.csproj", "{68CB0092-70D4-44F8-86DB-CD42519CFDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Элементы с одинаковыми знаками", "Элементы с одинаковыми знаками\Элементы с одинаковыми знаками.csproj", "{94288189-331B-45D5-96F4-894DE19203C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Элементы с одинаковыми знаками", "Элементы с одинаковыми знаками\Элементы с одинаковыми знаками.csproj", "{94288189-331B-45D5-96F4-894DE19203C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Больше предыдущего", "Больше предыдущего\Больше предыдущего.csproj", "{D3F6C40B-CFD0-4779-9136-841C901C4006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Больше предыдущего", "Больше предыдущего\Больше предыдущего.csproj", "{D3F6C40B-CFD0-4779-9136-841C901C4006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Положительные элементы", "Положительные элементы\Положительные элементы.csproj", "{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Положительные элементы", "Положительные элементы\Положительные элементы.csproj", "{E8BA6482-4F57-4C08-BDE8-C01DFE13A8C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Чётные элементы", "Чётные элементы\Чётные элементы.csproj", "{6046E32D-7768-4CC7-B0F8-785F9FEAB741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Чётные элементы", "Чётные элементы\Чётные элементы.csproj", "{6046E32D-7768-4CC7-B0F8-785F9FEAB741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A[0], A[2], A[4]", "A[0], A[2], A[4]\A[0], A[2], A[4].csproj", "{4DEC0589-C880-4113-8D4F-EBC1E001C61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A[0], A[2], A[4]", "A[0], A[2], A[4]\A[0], A[2], A[4].csproj", "{4DEC0589-C880-4113-8D4F-EBC1E001C61A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массив в число", "Массив в число\Массив в число.csproj", "{7A07EDAB-A175-4429-BF58-28E071D2C05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Массив в число", "Массив в число\Массив в число.csproj", "{7A07EDAB-A175-4429-BF58-28E071D2C05E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Число в массив", "Число в массив\Число в массив.csproj", "{2B1E8F20-B06E-44FB-BCC8-80E655090ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3DDAB886-5AAB-4EC6-B103-7F290BA4B5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сумма трёх элементов", "Сумма трёх элементов\Сумма трёх элементов.csproj", "{EF590A68-1798-48AB-A3C5-AA6CEF2D87AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сумма между максимумом и минимумом", "Сумма между максимумом и минимумом\Сумма между максимумом и минимумом.csproj", "{CD805156-9282-4B7C-BA1B-36957630F1BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,22 @@ Global
 		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A07EDAB-A175-4429-BF58-28E071D2C05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1E8F20-B06E-44FB-BCC8-80E655090ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1E8F20-B06E-44FB-BCC8-80E655090ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1E8F20-B06E-44FB-BCC8-80E655090ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1E8F20-B06E-44FB-BCC8-80E655090ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDAB886-5AAB-4EC6-B103-7F290BA4B5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDAB886-5AAB-4EC6-B103-7F290BA4B5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDAB886-5AAB-4EC6-B103-7F290BA4B5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDAB886-5AAB-4EC6-B103-7F290BA4B5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF590A68-1798-48AB-A3C5-AA6CEF2D87AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF590A68-1798-48AB-A3C5-AA6CEF2D87AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF590A68-1798-48AB-A3C5-AA6CEF2D87AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF590A68-1798-48AB-A3C5-AA6CEF2D87AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD805156-9282-4B7C-BA1B-36957630F1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD805156-9282-4B7C-BA1B-36957630F1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD805156-9282-4B7C-BA1B-36957630F1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD805156-9282-4B7C-BA1B-36957630F1BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,10 +13,8 @@ namespace Генерация_массива
             {
                 arr[i] = (arr[i - 1] * arr[i - 1] % 100) - (5 * arr[i - 1]) + 6;
             }
-            foreach (int element in arr)
-            {
-                Console.Write(element + " ");
-            }
+         
+            Console.Write(string.Join(" ", arr));
         }
     }
 }

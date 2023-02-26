@@ -16,34 +16,19 @@ namespace Максимум__минимум__сумма
         }
         static string Max(int[] num)
         {
-            int maxNumber = num[0];
-            int maxIndex = 0;
-            for (int i = 1; i < num.Length; i++)
-            {
-                if (num[i] >= maxNumber)
-                {
-                    maxNumber = num[i];
-                    maxIndex = i+1;
-                }
-            }
-            int[] max = {maxNumber, maxIndex };
-            string str = string.Join(" ", max);
+            int max = num.Max();
+            int MaxIndex = Array.LastIndexOf(num, max)+1;
+            int[] MaxNum = {max, MaxIndex};
+            string str = string.Join(" ", MaxNum);
             return str;
+
         }
         static string Min(int[] num)
         {
-            int minNumber = num[0];
-            int minIndex = 0;
-            for (int i = 0; i < num.Length; i++)
-            {
-                if (num[i] < minNumber)
-                {
-                    minNumber = num[i];
-                    minIndex = i+1;
-                }
-            }
-            int[] min = {minNumber, minIndex};
-            string str = string.Join(" ", min);
+           int min = num.Min();
+            int MinIndex = Array.IndexOf(num, min)+1;
+            int[] MinNum = {min, MinIndex};
+            string str = string.Join(" ", MinNum);
             return str;
         }
 

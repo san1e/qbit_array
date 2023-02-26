@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Массив_в_число
 {
@@ -7,10 +8,9 @@ namespace Массив_в_число
         static void Main(string[] args)
         {
             int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            string digitsStr = string.Join("", arr).TrimStart('0');
-            int number = int.Parse(digitsStr) + 42;
-
-            Console.WriteLine(number);
+            string str = string.Join("", arr);
+            int num = int.Parse(str) + 42;
+            Console.WriteLine(num);
         }
     }
 }
